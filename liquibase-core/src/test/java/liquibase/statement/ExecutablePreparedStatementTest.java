@@ -91,7 +91,7 @@ public class ExecutablePreparedStatementTest {
 				Assert.assertEquals(new Integer(1), index.getValue());
 				Assert.assertNotNull(in.getValue());
 				Assert.assertTrue(in.getValue() instanceof BufferedInputStream);
-				Assert.assertEquals(new Integer(50), length.getValue());
+				Assert.assertEquals(new Integer(51), length.getValue());
 				return null;
 			}
 		});
@@ -165,7 +165,7 @@ public class ExecutablePreparedStatementTest {
 				Assert.assertEquals(new Integer(1), index.getValue());
 				Assert.assertNotNull(reader.getValue());
 				Assert.assertTrue(reader.getValue() instanceof BufferedReader);
-				Assert.assertEquals(new Integer(39), length.getValue());
+				Assert.assertEquals(new Integer(40), length.getValue());
 				return null;
 			}
 		});
